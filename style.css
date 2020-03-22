@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+}
+
+.triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    position: absolute;
+}
+
+.circle {
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    top: 40px;
+    left: 20px;
+    z-index: 1;
+    background: yellow;
+}
+
